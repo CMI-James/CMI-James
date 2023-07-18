@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Front-end web Developer | Ardiuno C Programmer
 ----------------------------------------------
 
-I am a student of the department of Electronic Engineering at University of Nigeria, Nsukka. I am a front-end web developer with experience in HTML5, CSS3 AND Javascript, and Ardiuno C programmer. I am also open to internship options in Front-end development.
+I am a student of the department of Electronic Engineering at University of Nigeria, Nsukka. I am a Web developer with experience in HTML5, CSS3 AND Javascript, and Ardiuno C programmer. I am also open to internship options in Front-end development.
 
 *   🌍  I'm based in Enugu, Nigeria
 *   ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
