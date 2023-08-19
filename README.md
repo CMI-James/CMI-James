@@ -13,34 +13,253 @@ I am a student of the department of Electronic Engineering at University of Nige
 
 ### Skills
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" /></a>
- <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg" width="36" height="36" alt="Git" /></a>
- <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
- <a href="https://nextjs.org/docs/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" width="36" height="36" alt="Next.js" /></a>
- <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
- <a href="https://render.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/render-colored.svg" width="36" height="36" alt="Render" /></a>
- <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
- <a href="https://babeljs.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored.svg" width="36" height="36" alt="Babel" /></a>
-<a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a>
- <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="Node" /></a>
- <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Expressjs" /></a>
- <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="Mongodb" /></a>
- <a href="https://store.arduino.cc/?gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8uueBifykWcsSS4LPESeGQfxGVKJYnzV7bz471XfknQJy_1VINVWM8aAkLtEALw_wcB" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" width="36" height="36" alt="Arduino" /></a>
-
- </p>
-
+  <p align="left">
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        target="_blank"
+        rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+          width="36"
+          height="36"
+          alt="HTML5"
+      /></a>
+      <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+          width="36"
+          height="36"
+          alt="CSS3"
+      /></a>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        target="_blank"
+        rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+          width="36"
+          height="36"
+          alt="JavaScript"
+      /></a>
+      <a href="https://git-scm.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/git-colored.svg"
+          width="36"
+          height="36"
+          alt="Git"
+      /></a>
+      <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+          width="36"
+          height="36"
+          alt="Bootstrap"
+      /></a>
+      <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
+          width="36"
+          height="36"
+          alt="Sass"
+      /></a>
+      <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+          width="36"
+          height="36"
+          alt="Node"
+      /></a>
+      <a href="https://expressjs.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
+          width="36"
+          height="36"
+          alt="Expressjs"
+      /></a>
+      <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
+          width="36"
+          height="36"
+          alt="Mongodb"
+      /></a>
+      <a href="https://render.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/render-colored.svg"
+          width="36"
+          height="36"
+          alt="Render"
+      /></a>
+   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+          width="36"
+          height="36"
+          alt="React"
+      /></a>
+      <a href="https://babeljs.io/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/babel-colored.svg"
+          width="36"
+          height="36"
+          alt="Babel"
+      /></a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+          width="36"
+          height="36"
+          alt="TailwindCSS"
+      /></a>
+      <a href="https://nextjs.org/docs/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg"
+          width="36"
+          height="36"
+          alt="Next.js"
+      /></a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
+          width="36"
+          height="36"
+          alt="Vite"
+      /></a>
+   <a
+        href="https://store.arduino.cc/?gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8uueBifykWcsSS4LPESeGQfxGVKJYnzV7bz471XfknQJy_1VINVWM8aAkLtEALw_wcB"
+        target="_blank"
+        rel="noreferrer"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg"
+          width="36"
+          height="36"
+          alt="Arduino"
+      /></a>
+    </p>
 
 
 
 ### Socials
 
-<p align="left"> <a href="https://www.codepen.io/Chibuike-Ilonze" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen-colored.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen.svg" width="32" height="32" /> </picture> </a> <a href="https://codesandbox.io/u/ChibuikemMichaelIlonze" target="_blank" rel="noreferrer"> <picture> <source srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codesandbox.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codesandbox.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codesandbox.svg" width="32" height="32" /> </picture> </a> <a href="https://discord.com/users/ABunchofJames#0162" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /> </picture> </a> <a href="https://www.dribbble.com/Griezzman" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg" width="32" height="32" /> </picture> </a> <a href="https://www.facebook.com/chibuike.ilonze.1" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /> </picture> </a> <a href="https://www.github.com/ChibuikemMichaelIlonze" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="http://www.instagram.com/cmi_james" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/chibuikem-ilonze-7397a522a" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a> <a href="http://www.medium.com/chibuikemichaelilonze" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /> </picture> </a> <a href="https://www.stackoverflow.com/users/22031289/chibuike-ilonze" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg" width="32" height="32" /> </picture> </a> <a href="https://www.x.com/BikeManJames" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /> </picture> </a> <a href="https://www.youtube.com/@chibuikeilonze8745" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /> </picture> </a></p>
-
+  <p align="left">
+    <a
+        href="http://www.instagram.com/cmi_james"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://www.codepen.io/Chibuike-Ilonze"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codepen.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://codesandbox.io/u/ChibuikemMichaelIlonze"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/codesandbox.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://discord.com/users/ABunchofJames#0162"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://www.facebook.com/chibuike.ilonze.1"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://www.github.com/ChibuikemMichaelIlonze"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+       <a
+        href="https://www.linkedin.com/in/chibuikem-ilonze-7397a522a"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="http://www.medium.com/chibuikemichaelilonze"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a
+        href="https://www.stackoverflow.com/users/22031289/chibuike-ilonze"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+      <a href="https://www.x.com/BikeManJames" rel="nofollow" target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+   <a
+        href="https://www.dribbble.com/Griezzman"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+  <a
+        href="https://www.youtube.com/@chibuikeilonze8745"
+        rel="nofollow"
+        target="_blank"
+        ><img
+          src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg"
+          width="32"
+          height="32"
+          style="max-width: 100%"
+      /></a>
+    </p>
 ### Badges
 
 <b>My GitHub Stats</b>
