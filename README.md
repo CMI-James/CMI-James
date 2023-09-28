@@ -8,7 +8,7 @@ I am a student of the department of Electronic Engineering at University of Nige
 
 * 🌍  I'm based in Nigeria
 * ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
-* 🧠  I'm learning React, Nextjs and Tailwindcss
+* 🧠  I'm learning Python
 * 🤝  I'm open to collaborating on Open source projects and Personal collaborations
 
 ### Skills
