@@ -271,6 +271,13 @@ I am a student of the department of Electronic Engineering at University of Nige
 
 <a href="https://github.com/ChibuikemMichaelIlonze" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChibuikemMichaelIlonze&langs_count=10&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
+[![ChibuikemMichaelIlonze's GitHub | Stats](https://stats.quine.sh/ChibuikemMichaelIlonze/github?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=ChibuikemMichaelIlonze)
+
+[![ChibuikemMichaelIlonze's GitHub | Languages Over Time](https://stats.quine.sh/ChibuikemMichaelIlonze/languages-over-time?theme=dark)](https://quine.sh?utm_source=widgets&utm_campaign=ChibuikemMichaelIlonze)
+
+
+
+
 <b>Top Repositories</b>
 
 <div width="100%" align="center"><a href="https://github.com/ChibuikemMichaelIlonze/Learning-Nextjs" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=ChibuikemMichaelIlonze&repo=Learning-Nextjs&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/ChibuikemMichaelIlonze/learning" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=ChibuikemMichaelIlonze&repo=learning&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
