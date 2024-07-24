@@ -273,7 +273,7 @@ I am a student of the department of Electronic Engineering at University of Nige
 
 <img src="https://profile-counter.glitch.me/{ChibuikemMichaelIlonze}/count.svg" alt="madushadhanushka :: Visitor's Count" />
 
-
+![Snake animation](https://github.com/ChibuikemMichaelIlonze/github-readme/blob/output/github-contribution-snake.svg)
 
 
 <b>Top Repositories</b>
