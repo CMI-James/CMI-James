@@ -280,3 +280,6 @@ I am a student of the department of Electronic Engineering at University of Nige
 
 <div width="100%" align="center"><a href="https://github.com/ChibuikemMichaelIlonze/Learning-Nextjs" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=ChibuikemMichaelIlonze&repo=Learning-Nextjs&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&locale=en" /></a><a href="https://github.com/ChibuikemMichaelIlonze/learning" align="right"><img align="right" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=ChibuikemMichaelIlonze&repo=learning&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
 
+
+<img src="https://myreadme.vercel.app/api/embed/ChibuikemMichaelIlonze?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+
