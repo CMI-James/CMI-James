@@ -2,7 +2,7 @@
 
  I am a Web developer with experience in Tailwind, SCSS, JavaScript, React, Nextjs, Node.js, Express.js and Mongodb. I am also open to internship options in Web development.
 
-* 🌍  I'm based in Nigeria
+
 * ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
 * 🧠  I'm learning Python
 * 🤝  I'm open to collaborating on Open source projects and Personal collaborations
