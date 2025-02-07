@@ -1,8 +1,4 @@
-Hi 👋 My name is Chibuikem
-=================================
 
-Developer 
------------------------------------------
 
  I am a Web developer with experience in Tailwind, SCSS, JavaScript, React, Nextjs, Node.js, Express.js and Mongodb. I am also open to internship options in Web development.
 
