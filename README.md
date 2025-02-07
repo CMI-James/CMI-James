@@ -1,6 +1,6 @@
 
 
- I am a Web developer with experience in Tailwind, SCSS, JavaScript, React, Nextjs, Node.js, Express.js and Mongodb. I am also open to internship options in Web development.
+ I am a developer with experience in Tailwind, JavaScript, React, Nextjs. I am also open to internship options in Web development.
 
 
 * ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
