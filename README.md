@@ -1,10 +1,10 @@
 Hi 👋 My name is Chibuikem
 =================================
 
-MERN Web Developer | Ardiuno C Programmer
+Developer 
 -----------------------------------------
 
-I am a student of the department of Electronic Engineering at University of Nigeria, Nsukka. I am a Web developer with experience in Tailwind, SCSS, JavaScript, React, Nextjs, Node.js, Express.js and Mongodb. I am also open to internship options in Web development.
+ I am a Web developer with experience in Tailwind, SCSS, JavaScript, React, Nextjs, Node.js, Express.js and Mongodb. I am also open to internship options in Web development.
 
 * 🌍  I'm based in Nigeria
 * ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
