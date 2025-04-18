@@ -3,9 +3,10 @@
  I am a developer with experience in Tailwind, JavaScript, React, Nextjs. I am also open to internship options in Web development.
 
 
-* ✉️  You can contact me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)
-* 🧠  I'm learning Python
-* 🤝  I'm open to collaborating on Open source projects and Personal collaborations
+* ✉️  You can reach me at [chibuikemichaelilonze@gmail.com](mailto:chibuikemichaelilonze@gmail.com)  
+* 🧠  Currently learning Python for AI – I'm genuinely fascinated by it!  
+* 🌍  Contributing to Open Source on [OnlyDust](https://app.onlydust.com/users/CMI-James/overview)  
+* 🤝  Open to collaborating on Open Source projects or personal dev collabs
 
 ### Skills
 
