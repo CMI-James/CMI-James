@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=block");
 
+/* Keep in sync with scripts/svgkit.mjs */
 :root {
   --bg: #0a0c10;
   --panel: #12161d;
@@ -7,7 +8,22 @@
   --text: #e8edf3;
   --muted: #8a96a6;
   --accent: #7cf2c9;
+  --glow: rgba(124, 242, 201, 0.16);
   --accent-dim: rgba(124, 242, 201, 0.12);
+  --accent-border: rgba(124, 242, 201, 0.5);
+  --shadow: 0 30px 60px rgba(0, 0, 0, 0.55);
+}
+:root[data-theme="light"] {
+  --bg: #ffffff;
+  --panel: #f3f5f8;
+  --line: #d9dfe7;
+  --text: #0f1419;
+  --muted: #57606a;
+  --accent: #0a7d5c;
+  --glow: rgba(10, 125, 92, 0.10);
+  --accent-dim: rgba(10, 125, 92, 0.08);
+  --accent-border: rgba(10, 125, 92, 0.45);
+  --shadow: 0 24px 50px rgba(15, 20, 25, 0.16);
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -30,7 +46,7 @@ body {
   height: 100%;
   background: var(--bg);
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 24px;
   position: relative;
   overflow: hidden;
 }
@@ -50,11 +66,11 @@ body {
 .card::after {
   content: "";
   position: absolute;
-  width: 520px;
-  height: 520px;
-  right: -200px;
-  top: -260px;
-  background: radial-gradient(circle, rgba(124, 242, 201, 0.18), transparent 70%);
+  width: 620px;
+  height: 620px;
+  right: -240px;
+  top: -300px;
+  background: radial-gradient(circle, var(--glow), transparent 70%);
 }
 
 .inner { position: relative; z-index: 1; height: 100%; }
@@ -64,7 +80,7 @@ body {
 
 .eyebrow {
   font-family: "JetBrains Mono", monospace;
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -73,10 +89,35 @@ body {
 .tag {
   display: inline-block;
   font-family: "JetBrains Mono", monospace;
-  font-size: 12px;
-  padding: 5px 10px;
+  font-size: 17px;
+  padding: 7px 14px;
   border-radius: 999px;
   border: 1px solid var(--line);
   color: var(--muted);
   background: var(--panel);
 }
+
+/* Browser window frame around screenshots */
+.browser {
+  position: absolute;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.browser .bar {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--line);
+}
+.browser .bar i { width: 11px; height: 11px; border-radius: 50%; background: var(--line); }
+.browser .bar span {
+  margin-left: 14px;
+  font: 500 13px "JetBrains Mono", monospace;
+  color: var(--muted);
+}
+.browser img { display: block; width: 100%; }

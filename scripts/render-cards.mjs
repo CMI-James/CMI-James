@@ -18,21 +18,25 @@ const chrome = process.env.CHROME || [
 ].find(existsSync);
 if (!chrome) throw new Error("No Chrome found; set CHROME=/path/to/chrome");
 
-// [output name, template, query string]
+// [output name, template, query string]; each is rendered dark (name.png) and light (name-light.png)
 const cards = [
-  ["hero", "hero.html", ""],
-  ["p-stellarcade", "project.html", "?p=stellarcade"],
-  ["p-sylox", "project.html", "?p=sylox"],
-  ["p-lumenline", "project.html", "?p=lumenline"],
-  ["p-stellarfreight", "project.html", "?p=stellarfreight"],
+  ["p-erp", "featured.html", "p=erp"],
+  ["p-web", "featured.html", "p=web"],
+  ["p-stellarcade", "small.html", "p=stellarcade"],
+  ["p-sylox", "small.html", "p=sylox"],
   ["stack", "stack.html", ""],
-  ["c-github", "contact.html", "?c=github"],
-  ["c-linkedin", "contact.html", "?c=linkedin"],
-  ["c-x", "contact.html", "?c=x"],
-  ["c-site", "contact.html", "?c=site"],
+  ["c-github", "contact.html", "c=github"],
+  ["c-linkedin", "contact.html", "c=linkedin"],
+  ["c-x", "contact.html", "c=x"],
+  ["c-site", "contact.html", "c=site"],
 ];
 
-for (const [name, file, query] of cards) {
+const jobs = cards.flatMap(([name, file, query]) => [
+  [name, file, `?${query}`],
+  [`${name}-light`, file, `?${query}&theme=light`],
+]);
+
+for (const [name, file, query] of jobs) {
   const html = readFileSync(join(design, file), "utf8");
   const [w, h] = html.match(/name="size" content="(\d+)x(\d+)"/).slice(1);
   const out = join(assets, `${name}.png`);

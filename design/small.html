@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="size" content="600x470">
+<script src="theme.js"></script>
+<link rel="stylesheet" href="base.css">
+<style>
+  :root { --w: 600px; --h: 470px; }
+  .browser { left: 40px; right: 40px; top: 36px; }
+  .browser img { height: 230px; object-fit: cover; object-position: top; }
+  .text { position: absolute; left: 40px; right: 40px; bottom: 36px; }
+  .head { display: flex; align-items: baseline; justify-content: space-between; }
+  h2 { font-size: 44px; font-weight: 700; }
+  .eyebrow { font-size: 15px; }
+  p { font-size: 23px; line-height: 1.35; color: var(--muted); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="card"><div class="inner">
+  <div class="browser">
+    <div class="bar"><i></i><i></i><i></i><span id="url"></span></div>
+    <img id="shot" alt="">
+  </div>
+  <div class="text">
+    <div class="head"><h2 class="display" id="name"></h2><div class="eyebrow" id="kind"></div></div>
+    <p id="desc"></p>
+  </div>
+</div></div>
+<script>
+  // Render with ?p=<key>
+  const projects = {
+    stellarcade: { name: "Stellarcade", kind: "Maintainer", desc: "Provably fair arcade games, 150+ forks.", url: "stellarcade.xyz" },
+    sylox: { name: "Sylox", kind: "Risk infra", desc: "Public risk scores for anchor-issued tokens.", url: "sylox.xyz" },
+  };
+  const key = new URLSearchParams(location.search).get("p") || "stellarcade";
+  const p = projects[key];
+  for (const k of ["kind", "name", "desc", "url"]) document.getElementById(k).textContent = p[k];
+  document.getElementById("shot").src = `shots/${key}.png`;
+</script>
+</body>
+</html>

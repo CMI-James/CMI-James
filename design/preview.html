@@ -2,20 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Profile preview</title>
 <style>
-  /* Approximates GitHub's dark profile README column (about 830px wide) */
-  body { margin: 0; background: #0d1117; display: flex; justify-content: center; padding: 32px 16px; }
-  .md { width: 830px; max-width: 100%; border: 1px solid #30363d; border-radius: 6px; padding: 24px; }
+  /* Approximates GitHub's profile README column (about 830px wide). ?theme=light for light mode. */
+  body { margin: 0; background: #0d1117; color: #e6edf3; font: 16px -apple-system, "Segoe UI", sans-serif; display: flex; justify-content: center; padding: 32px 16px; }
+  body.light { background: #ffffff; color: #1f2328; }
+  .md { width: 830px; max-width: 100%; border: 1px solid #30363d; border-radius: 6px; padding: 24px; box-sizing: border-box; }
+  .light .md { border-color: #d0d7de; }
   p { margin: 0 0 16px; text-align: center; }
-  img { vertical-align: middle; }
+  img { vertical-align: middle; max-width: 100%; height: auto; box-sizing: content-box; }
+  details { margin: 0 0 16px; }
+  a { color: #4493f8; }
 </style>
 </head>
 <body>
 <div class="md" id="md"></div>
 <script>
+  const light = new URLSearchParams(location.search).get("theme") === "light";
+  if (light) document.body.classList.add("light");
   fetch("../README.md").then(r => r.text()).then(t => {
-    document.getElementById("md").innerHTML = t.replaceAll('src="assets/', 'src="../assets/');
+    const md = document.getElementById("md");
+    md.innerHTML = t.replaceAll('srcset="assets/', 'srcset="../assets/').replaceAll('src="assets/', 'src="../assets/');
+    // Pick the variant GitHub would show for the chosen theme
+    for (const pic of md.querySelectorAll("picture")) {
+      const src = pic.querySelector("source");
+      if (light) pic.querySelector("img").src = src.getAttribute("srcset");
+      src.remove();
+    }
   });
 </script>
 </body>

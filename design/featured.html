@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="size" content="1200x520">
+<script src="theme.js"></script>
+<link rel="stylesheet" href="base.css">
+<style>
+  :root { --w: 1200px; --h: 520px; }
+  .text { position: absolute; left: 56px; top: 56px; bottom: 56px; width: 470px; display: flex; flex-direction: column; }
+  h2 { font-size: 54px; line-height: 1.05; font-weight: 700; margin-top: 16px; }
+  p { font-size: 25px; line-height: 1.45; color: var(--muted); margin-top: 18px; }
+  .tags { margin-top: auto; display: flex; gap: 10px; flex-wrap: wrap; }
+  .browser { left: 580px; top: 64px; width: 680px; }
+
+  /* Stylised ERP: layout only, no real data */
+  .erp { display: grid; grid-template-columns: 170px 1fr; height: 440px; }
+  .side { border-right: 1px solid var(--line); padding: 18px 14px; display: flex; flex-direction: column; gap: 6px; }
+  .side b { font: 700 17px "Space Grotesk", sans-serif; margin: 0 6px 12px; }
+  .side span { font: 500 14px "Inter", sans-serif; color: var(--muted); padding: 8px 10px; border-radius: 8px; }
+  .side span.on { background: var(--accent-dim); color: var(--accent); }
+  .main { padding: 20px; display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: min-content; gap: 12px; }
+  .kpi { border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: var(--bg); }
+  .kpi small { display: block; font: 500 12px "Inter", sans-serif; color: var(--muted); }
+  .kpi .bar { height: 10px; border-radius: 5px; background: var(--line); margin-top: 10px; }
+  .kpi .bar i { display: block; height: 100%; border-radius: 5px; background: var(--accent); }
+  .chart { grid-column: span 2; border: 1px solid var(--line); border-radius: 10px; padding: 14px; height: 170px; display: flex; align-items: flex-end; gap: 10px; background: var(--bg); }
+  .chart i { flex: 1; border-radius: 4px 4px 0 0; background: var(--accent); opacity: 0.75; }
+  .list { border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 12px; background: var(--bg); }
+  .list i { height: 10px; border-radius: 5px; background: var(--line); }
+  .table { grid-column: span 3; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); }
+  .table div { display: grid; grid-template-columns: 2fr 1fr 1fr 70px; gap: 16px; align-items: center; padding: 12px 14px; border-top: 1px solid var(--line); }
+  .table div:first-child { border-top: 0; }
+  .table i { height: 9px; border-radius: 5px; background: var(--line); }
+  .table em { height: 18px; border-radius: 9px; background: var(--accent-dim); border: 1px solid var(--accent-border); }
+</style>
+</head>
+<body>
+<div class="card"><div class="inner">
+  <div class="text">
+    <div class="eyebrow" id="kind"></div>
+    <h2 class="display" id="name"></h2>
+    <p id="desc"></p>
+    <div class="tags" id="tags"></div>
+  </div>
+  <div class="browser">
+    <div class="bar"><i></i><i></i><i></i><span id="url"></span></div>
+    <div id="view"></div>
+  </div>
+</div></div>
+<script>
+  // One template, two cards: render with ?p=<key>
+  const erpView = `
+    <div class="erp">
+      <div class="side">
+        <b>Matrix</b>
+        <span class="on">Dashboard</span><span>HR &amp; payroll</span><span>Tasks</span>
+        <span>Help desk</span><span>Assets</span><span>Purchasing</span><span>Governance</span>
+      </div>
+      <div class="main">
+        <div class="kpi"><small>Attendance</small><div class="bar"><i style="width:82%"></i></div></div>
+        <div class="kpi"><small>Tasks done</small><div class="bar"><i style="width:64%"></i></div></div>
+        <div class="kpi"><small>Tickets closed</small><div class="bar"><i style="width:91%"></i></div></div>
+        <div class="chart"><i style="height:40%"></i><i style="height:62%"></i><i style="height:48%"></i><i style="height:75%"></i><i style="height:58%"></i><i style="height:88%"></i><i style="height:70%"></i></div>
+        <div class="list"><i style="width:90%"></i><i style="width:70%"></i><i style="width:82%"></i><i style="width:55%"></i><i style="width:76%"></i></div>
+        <div class="table">
+          <div><i style="width:80%"></i><i></i><i style="width:60%"></i><em></em></div>
+          <div><i style="width:65%"></i><i></i><i style="width:75%"></i><em></em></div>
+          <div><i style="width:72%"></i><i></i><i style="width:50%"></i><em></em></div>
+        </div>
+      </div>
+    </div>`;
+  const projects = {
+    erp: {
+      kind: "Enterprise · Built & maintained",
+      name: "ACOB Matrix ERP",
+      desc: "The company-wide staff portal: HR and payroll, tasks, help desk, assets, purchasing and governance in one app.",
+      tags: ["Next.js", "Supabase", "PostgreSQL"],
+      url: "matrix.acoblighting.com",
+      view: erpView,
+    },
+    web: {
+      kind: "Company website",
+      name: "ACOB Lighting",
+      desc: "The public site for a Nigerian solar energy company, with projects and news managed in Sanity CMS.",
+      tags: ["Next.js", "Sanity", "TypeScript"],
+      url: "acoblighting.com",
+      view: `<img src="shots/web.png" alt="">`,
+    },
+  };
+  const p = projects[new URLSearchParams(location.search).get("p")] || projects.erp;
+  for (const k of ["kind", "name", "desc", "url"]) document.getElementById(k).textContent = p[k];
+  document.getElementById("tags").innerHTML = p.tags.map(t => `<span class="tag">${t}</span>`).join("");
+  document.getElementById("view").innerHTML = p.view;
+</script>
+</body>
+</html>
