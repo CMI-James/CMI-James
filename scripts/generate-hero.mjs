@@ -18,8 +18,8 @@ const nodes = {
 const edges = [["next", "pg"], ["next", "supa"], ["pg", "supa"], ["pg", "sanity"], ["supa", "rust"], ["sanity", "rust"]];
 
 function hero(t) {
-  const name1 = "Chibuikem Michael", name2 = "Ilonze", size = 68;
-  const nameWidth = width(name1, fonts.display, size, -0.02);
+  const name = "Chibuikem Ilonze", size = 72;
+  const nameWidth = width(name, fonts.display, size, -0.02);
   if (X + nameWidth > 780) throw new Error(`Name runs into the diagram (${Math.round(nameWidth)}px)`);
 
   const lede = paragraph([
@@ -28,9 +28,9 @@ function hero(t) {
     { text: ", from a company-wide ERP to public websites, and ", font: fonts.body, fill: t.muted },
     { text: "smart contracts in Rust", font: fonts.bodyMedium, fill: t.text },
     { text: " for open-source Web3 projects.", font: fonts.body, fill: t.muted },
-  ], { x: X, y: 322, size: 25, lineHeight: 38, maxWidth: 650 });
+  ], { x: X, y: 286, size: 25, lineHeight: 38, maxWidth: 650 });
 
-  const dot = X + width(name2, fonts.display, size, -0.02) + 3;
+  const dot = X + nameWidth + 3;
 
   const edgeSvg = edges.map(([a, b], i) => {
     const A = nodes[a], B = nodes[b];
@@ -50,7 +50,7 @@ function hero(t) {
   }).join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title">
-  <title id="title">Chibuikem Michael Ilonze, full-stack software engineer. I build production web apps end to end, from a company-wide ERP to public websites, and smart contracts in Rust for open-source Web3 projects.</title>
+  <title id="title">Chibuikem Ilonze, full-stack software engineer. I build production web apps end to end, from a company-wide ERP to public websites, and smart contracts in Rust for open-source Web3 projects.</title>
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="${t.line}"/></pattern>
     <radialGradient id="fade" cx="0.8" cy="0.1" r="0.7"><stop offset="0" stop-color="#fff" stop-opacity="0.5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
@@ -72,10 +72,9 @@ function hero(t) {
     <rect width="${W}" height="${H}" fill="url(#grid)" mask="url(#gridMask)"/>
     <rect width="${W}" height="${H}" fill="url(#glow)"/>
     <g class="reveal">
-      ${textPath("FULL-STACK SOFTWARE ENGINEER", { x: X, y: 92, font: fonts.mono, size: 16, fill: t.accent, letterSpacing: 0.14 })}
-      ${textPath(name1, { x: X, y: 176, font: fonts.display, size, fill: t.text, letterSpacing: -0.02 })}
-      ${textPath(name2, { x: X, y: 252, font: fonts.display, size, fill: t.text, letterSpacing: -0.02 })}
-      <rect x="${dot}" y="238" width="14" height="14" rx="7" fill="${t.accent}"/>
+      ${textPath("FULL-STACK SOFTWARE ENGINEER", { x: X, y: 120, font: fonts.mono, size: 16, fill: t.accent, letterSpacing: 0.14 })}
+      ${textPath(name, { x: X, y: 210, font: fonts.display, size, fill: t.text, letterSpacing: -0.02 })}
+      <rect x="${dot}" y="195" width="15" height="15" rx="7.5" fill="${t.accent}"/>
       ${lede.svg}
     </g>
     ${edgeSvg}

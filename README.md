@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero.svg" alt="Chibuikem Michael Ilonze, full-stack software engineer. I build production web apps end to end, from a company-wide ERP to public websites, and smart contracts in Rust for open-source Web3 projects." width="100%">
+    <img src="assets/hero.svg" alt="Chibuikem Ilonze, full-stack software engineer. I build production web apps end to end, from a company-wide ERP to public websites, and smart contracts in Rust for open-source Web3 projects." width="100%">
   </picture>
 </p>
 
@@ -24,18 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="https://stellarcade.xyz">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="assets/p-stellarcade-light.png">
-      <img src="assets/p-stellarcade.png" alt="Stellarcade, which I maintain: provably fair arcade games on Stellar, with 150+ forks." width="49.5%">
-    </picture>
-  </a>
-  <a href="https://sylox.xyz">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="assets/p-sylox-light.png">
-      <img src="assets/p-sylox.png" alt="Sylox: public risk scores for anchor-issued tokens on Stellar." width="49.5%">
-    </picture>
-  </a>
+  <a href="https://stellarcade.xyz"><picture><source media="(prefers-color-scheme: light)" srcset="assets/p-stellarcade-light.png"><img src="assets/p-stellarcade.png" alt="Stellarcade, which I maintain: provably fair arcade games on Stellar, with 150+ forks." width="49.5%"></picture></a><a href="https://sylox.xyz"><picture><source media="(prefers-color-scheme: light)" srcset="assets/p-sylox-light.png"><img src="assets/p-sylox.png" alt="Sylox: public risk scores for anchor-issued tokens on Stellar." width="49.5%"></picture></a>
 </p>
 
 <details>
@@ -61,8 +50,5 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CMI-James"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-github-light.png"><img src="assets/c-github.png" alt="GitHub: CMI-James" width="49.5%"></picture></a>
-  <a href="https://www.linkedin.com/in/chibuikem-ilonze-7397a522a"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-linkedin-light.png"><img src="assets/c-linkedin.png" alt="LinkedIn: Chibuikem Ilonze" width="49.5%"></picture></a>
-  <a href="https://x.com/cmi_james"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-x-light.png"><img src="assets/c-x.png" alt="X: @cmi_james" width="49.5%"></picture></a>
-  <a href="https://cmi-james.vercel.app"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-site-light.png"><img src="assets/c-site.png" alt="Portfolio: cmi-james.vercel.app" width="49.5%"></picture></a>
+  <a href="https://github.com/CMI-James"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-github-light.png"><img src="assets/c-github.png" alt="GitHub: CMI-James" width="49.5%"></picture></a><a href="https://www.linkedin.com/in/chibuikem-ilonze-7397a522a"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-linkedin-light.png"><img src="assets/c-linkedin.png" alt="LinkedIn: Chibuikem Ilonze" width="49.5%"></picture></a><a href="https://x.com/cmi_james"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-x-light.png"><img src="assets/c-x.png" alt="X: @cmi_james" width="49.5%"></picture></a><a href="https://cmi-james.vercel.app"><picture><source media="(prefers-color-scheme: light)" srcset="assets/c-site-light.png"><img src="assets/c-site.png" alt="Portfolio: cmi-james.vercel.app" width="49.5%"></picture></a>
 </p>
