@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="size" content="600x340">
+<link rel="stylesheet" href="base.css">
+<style>
+  :root { --w: 600px; --h: 340px; }
+  .inner { padding: 36px 40px; display: flex; flex-direction: column; }
+  h2 { font-size: 40px; font-weight: 700; margin-top: 14px; }
+  p { font-size: 17px; line-height: 1.5; color: var(--muted); margin-top: 12px; }
+  .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: center; }
+  .tags { display: flex; gap: 8px; }
+  .url { font-size: 13px; color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="card"><div class="inner">
+  <div class="eyebrow" id="kind"></div>
+  <h2 class="display" id="name"></h2>
+  <p id="desc"></p>
+  <div class="foot">
+    <div class="tags" id="tags"></div>
+    <div class="url mono" id="url"></div>
+  </div>
+</div></div>
+<script>
+  // One template, four cards: render with ?p=<key>
+  const projects = {
+    stellarcade: {
+      kind: "Gaming · Maintainer",
+      name: "Stellarcade",
+      desc: "A decentralised arcade on Stellar: provably fair games and community prize pools, run on Soroban contracts. 150+ forks from open-source contributors.",
+      tags: ["Rust", "Soroban", "TypeScript"],
+      url: "stellarcade.xyz",
+    },
+    sylox: {
+      kind: "Risk infrastructure",
+      name: "Sylox",
+      desc: "A public risk score for every anchor-issued token on Stellar, and a market to buy protection against an issuer depegging or failing.",
+      tags: ["Rust", "Soroban", "Oracles"],
+      url: "sylox.xyz",
+    },
+    lumenline: {
+      kind: "Cross-chain payments",
+      name: "Lumenline",
+      desc: "SDK, relayer, Soroban router and drop-in widget for moving USDC and USDT0 between Stellar and other chains over CCTP v2 and LayerZero.",
+      tags: ["TypeScript", "Soroban", "CCTP"],
+      url: "github.com/lumenline-labs",
+    },
+    stellarfreight: {
+      kind: "Logistics",
+      name: "StellarFreight",
+      desc: "Cross-border freight: book shipments, pay instantly in USDC on Stellar, track in real time and settle through Soroban escrow.",
+      tags: ["Next.js", "USDC", "Escrow"],
+      url: "stellarfreight.vercel.app",
+    },
+  };
+  const p = projects[new URLSearchParams(location.search).get("p")] || projects.stellarcade;
+  for (const k of ["kind", "name", "desc", "url"]) document.getElementById(k).textContent = p[k];
+  document.getElementById("tags").innerHTML = p.tags.map(t => `<span class="tag">${t}</span>`).join("");
+</script>
+</body>
+</html>

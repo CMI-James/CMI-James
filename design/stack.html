@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="size" content="1200x250">
+<link rel="stylesheet" href="base.css">
+<style>
+  :root { --w: 1200px; --h: 250px; }
+  .inner { padding: 40px 64px; display: grid; grid-template-columns: 180px 1fr; row-gap: 22px; align-content: center; }
+  .label { font-size: 13px; color: var(--muted); letter-spacing: 0.12em; text-transform: uppercase; padding-top: 6px; }
+  .items { display: flex; flex-wrap: wrap; gap: 10px; }
+  .items span { font-size: 16px; padding: 7px 14px; border-radius: 10px; background: var(--panel); border: 1px solid var(--line); }
+  .items span.hot { border-color: rgba(124, 242, 201, 0.5); background: var(--accent-dim); color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="card"><div class="inner">
+  <div class="label mono">Languages</div>
+  <div class="items"><span class="hot">TypeScript</span><span class="hot">Rust</span><span>JavaScript</span><span>Python</span><span>HTML / CSS</span></div>
+  <div class="label mono">Frameworks</div>
+  <div class="items"><span>React</span><span>Next.js</span><span>Node.js</span><span>NestJS</span><span>Tailwind CSS</span></div>
+  <div class="label mono">Chain &amp; tools</div>
+  <div class="items"><span class="hot">Stellar</span><span class="hot">Soroban</span><span>PostgreSQL</span><span>Docker</span><span>Git</span></div>
+</div></div>
+</body>
+</html>

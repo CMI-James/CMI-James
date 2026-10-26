@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Profile preview</title>
+<style>
+  /* Approximates GitHub's dark profile README column (about 830px wide) */
+  body { margin: 0; background: #0d1117; display: flex; justify-content: center; padding: 32px 16px; }
+  .md { width: 830px; max-width: 100%; border: 1px solid #30363d; border-radius: 6px; padding: 24px; }
+  p { margin: 0 0 16px; text-align: center; }
+  img { vertical-align: middle; }
+</style>
+</head>
+<body>
+<div class="md" id="md"></div>
+<script>
+  fetch("../README.md").then(r => r.text()).then(t => {
+    document.getElementById("md").innerHTML = t.replaceAll('src="assets/', 'src="../assets/');
+  });
+</script>
+</body>
+</html>
